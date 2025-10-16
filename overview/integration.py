@@ -34,7 +34,7 @@ button_print = tk.Button(root, text='Print', command=print_student)
 button_print.pack(pady=15)
 
 # connect to database and build environment
-conn = sqlite3.connect('/overview/student.db')
+conn = sqlite3.connect('student.db')
 cursor = conn.cursor()
 
 
