@@ -63,7 +63,7 @@ button_overview = tk.Button(root, text='Overview', command=overview_student)
 button_overview.pack(pady=25)
 
 
-
+print('GUI is running...')
 
 root.mainloop() # must be at the last line
 
